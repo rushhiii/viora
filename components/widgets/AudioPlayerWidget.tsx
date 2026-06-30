@@ -453,8 +453,6 @@ export default function AudioPlayerWidget({
     setSelectedTypes(requestedTypes);
   }, [requestedTypesKey, dataUrl, instance]);
 
-  
-
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
@@ -983,6 +981,7 @@ export default function AudioPlayerWidget({
                 {/* <button type="button" className={controlButton} onClick={() => setQueueVisible((v) => !v)} aria-pressed={queueVisible} aria-label="Toggle queue">
                   <List size={20} fill="currentColor" color={text} />
                 </button> */}
+                
               </div>
             </div>
           </div>
