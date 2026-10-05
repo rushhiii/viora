@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
           {
             key: "Content-Security-Policy",
             value:
-              "frame-ancestors 'self' https://*.vercel.app https://vercel.com https://*.notion.so https://notion.so https://*.notion.site https://notion.site",
+              "frame-ancestors 'self' https://*.vercel.app https://vercel.com https://*.notion.com https://notion.com https://*.notion.so https://notion.so https://*.notion.site https://notion.site",
           },
           {
             key: "X-Robots-Tag",
