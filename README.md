@@ -13,27 +13,32 @@ Includes clock, timer, stopwatch, D-Day, quotes, weather, progress, and music pl
 
 ## Table of Contents
 
-- [What's Included](#whats-included)
-- [Showcase](#showcase)
-- [Quick Start](#quick-start)
-- [Fork & Deploy Your Own](#fork--deploy-your-own)
-- [Widget Routes](#widget-routes)
-- [Instance IDs](#instance-ids)
-- [Common Query Params](#common-query-params)
-- [Music Player (English)](#music-player-english)
-- [Recent Updates](#recent-updates)
-- [Notion Quotes Sync](#notion-quotes-sync)
-- [Vercel Quote Sync (Free Plan)](#vercel-quote-sync-free-plan)
-- [How to Confirm Cron Is Running](#how-to-confirm-cron-is-running)
-- [Trigger Sync On Notion Changes](#trigger-sync-on-notion-changes)
-- [SEO and Indexing](#seo-and-indexing)
-- [Code of Conduct](#code-of-conduct)
-- [Contributing](#contributing)
-- [Security](#security)
-- [License](#license)
-- [Repo Structure](#repo-structure)
-- [Contact / Requests](#contact--requests)
-- [Notes](#notes)
+- [✮ Notion Widgets Framework](#-notion-widgets-framework)
+  - [Table of Contents](#table-of-contents)
+  - [What's Included](#whats-included)
+  - [Showcase](#showcase)
+  - [Quick Start](#quick-start)
+  - [Fork \& Deploy Your Own](#fork--deploy-your-own)
+  - [Widget Routes](#widget-routes)
+  - [Instance IDs](#instance-ids)
+  - [Common Query Params](#common-query-params)
+  - [Audio Player (Custom MP3)](#audio-player-custom-mp3)
+    - [Using A Friend's Repo As Datasource](#using-a-friends-repo-as-datasource)
+    - [Using Cloudflare R2](#using-cloudflare-r2)
+    - [No-Card Alternative](#no-card-alternative)
+  - [Private Music Collection Setup](#private-music-collection-setup)
+    - [Option A: Public Repo with Restrictive License (Simple)](#option-a-public-repo-with-restrictive-license-simple)
+    - [Option B: Private Bucket with Signed URLs (Secure)](#option-b-private-bucket-with-signed-urls-secure)
+  - [License for Music Assets](#license-for-music-assets)
+  - [Recent Updates](#recent-updates)
+  - [Notion Quotes Sync](#notion-quotes-sync)
+  - [Vercel Quote Sync (Free Plan)](#vercel-quote-sync-free-plan)
+  - [How to Confirm Cron Is Running](#how-to-confirm-cron-is-running)
+  - [Trigger Sync On Notion Changes](#trigger-sync-on-notion-changes)
+  - [SEO and Indexing](#seo-and-indexing)
+  - [Repo Structure](#repo-structure)
+  - [Contact / Requests](#contact--requests)
+  - [Notes](#notes)
 
 ## What's Included
 
@@ -443,22 +448,6 @@ SEO baseline added in this repo:
 To use your real domain in canonical metadata and sitemap, set:
 
 - `NEXT_PUBLIC_SITE_URL=https://your-domain.com`
-
-## Code of Conduct
-
-See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-
-## Contributing
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for workflow, PR checklist, and test expectations.
-
-## Security
-
-See [SECURITY.md](SECURITY.md) for vulnerability reporting and security practices.
-
-## License
-
-This project is licensed under MIT. See [LICENSE](LICENSE).
 
 ## Repo Structure
 
