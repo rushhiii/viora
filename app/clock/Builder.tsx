@@ -189,7 +189,6 @@ export function ClockBuilder() {
               <RefreshCw size={16} />
             </button>
           </div>
-
           <div className="grid grid-cols-1 gap-3">
             <label className="space-y-1 text-sm">
               <span className="text-zinc-300">Timezone</span>

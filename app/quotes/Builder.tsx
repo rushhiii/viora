@@ -108,7 +108,7 @@ function defaultsForTheme(theme: ThemeKey) {
   };
 }
 
-const RESTRICTED_AUTHORS = ["unknown", "n/a", "rushi", "jane austen", "atticus", "emperor fushimi"];
+const RESTRICTED_AUTHORS = ["ray", "nea", "rushi", "jane austen", "atticus", "emperor fushimi"];
 const RESTRICTED_LANGUAGES = ["hindi", "punjabi", "punjabi/hindi"];
 const RESTRICTED_SOURCE_TYPES = ["poetry", "quote", "saying", "series", "song", "lines", "movie", "my thought"];
 
